@@ -1,0 +1,56 @@
+Seven astonishing sound effects and filters. Reverb, three band equalizer, tremolo, delay, high pass, low pass and biquad. 
+
+Web demo: http://www.3y3.net/SoundEffects/SoundEffects.html 
+Mobile friendly!
+
+A collection of seven sound effects and filters which will allow you to take control of the sounds played in your game. 
+
+Super simple setup, drag and drop the script into any gameobject which contains an audio source. All parameters and configurations can be changed in realtime.
+You can stack as many effects as you want in the same object.
+You can apply effects to many objects in the scene simultaneously.
+Ultra fast algorithms, works fine in mobile devices.
+
+Filter and Effects Description and Parameters
+
+Equalizer
+---------
+Three band equalizer
+Low freq: Set the gain of the low frequencies
+Mid freq: Set the gain of the mid frequencies
+High freq: Set the gain of the High frequencies
+
+Reverb
+------
+Creates a reverb effect by repeating the input at certain intervals.
+Delay seconds: The retard of the reverb feedback in seconds.
+Decay: How loud the feedback sounds.
+Stages: How many times the feedback will repeat.
+
+Delay
+-----
+Creates a delay effect. You can use it to create morecomplex effects, for example, by varying the samples in real time you will get a phaser effect.
+Samples in delay: The amount of samples to delay.
+Delay blend: How much the delay is mixed with the original signal.
+Delay volume: Final volume of the sound.
+Feedback: Feedback volume.
+
+Tremolo
+-------
+Creates a tremolo on the sound
+Depth: Gain of the tremolo
+Effect rate: Length of the tremolo effect in samples
+
+Biquad
+------
+Cutoff frequency: Cut frequency for low pass filter
+Resonance: Resonance frequency
+
+High pass
+------
+Cutoff frequency: Lowest frequency allowed for filter
+Resonance: Resonance frequency
+
+Low pass
+------
+Cutoff frequency: Highest frequency allowed for filter
+Resonance: Resonance frequency
