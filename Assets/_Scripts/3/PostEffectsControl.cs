@@ -1,11 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Rendering.PostProcessing;
+using UnityEngine.Rendering.Universal;
+using UnityEngine.Rendering;
 
 public class PostEffectsControl : MonoBehaviour {
 
-    public PostProcessVolume post;
+    public VolumeProfile postV;
 
     ChromaticAberration chromatic;
 
@@ -14,7 +15,7 @@ public class PostEffectsControl : MonoBehaviour {
 
     private void Awake()
     {
-        post.profile.TryGetSettings(out chromatic);
+        postV.TryGet(out chromatic);
     }
 
     void Update ()

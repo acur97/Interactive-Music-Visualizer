@@ -26,6 +26,11 @@ public class TriangulosGiratorios : MonoBehaviour {
         translacion = new Vector3(Random.Range(1, 2), Random.Range(1, 2), Random.Range(1, 2));
     }
 
+    private void FixedUpdate()
+    {
+        transform.Rotate(rotacion * velocidadRotacion);
+    }
+
     private void Update()
     {
         if (!una)
@@ -56,7 +61,6 @@ public class TriangulosGiratorios : MonoBehaviour {
         escala = new Vector3(numeroEscala, numeroEscala, numeroEscala);
         transform.localScale = escala;
         
-        transform.Rotate(rotacion * velocidadRotacion);
         transform.Translate(translacion * velocidadTranslacion, Space.World);
     }
 

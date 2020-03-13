@@ -9,9 +9,14 @@ public class TriangulitosGiratorios : MonoBehaviour {
     public float scaleMultiplier;
     public float startScale;
 
-    private void Update()
+    private void FixedUpdate()
     {
         transform.Rotate((AudioSpectrum.amplitudeBuffer * rotMultiplier), (AudioSpectrum.amplitudeBuffer * rotMultiplier), (AudioSpectrum.amplitudeBuffer * rotMultiplier));
+
+    }
+
+    private void Update()
+    {
         transform.localScale = new Vector3((AudioSpectrum.amplitudeBuffer * scaleMultiplier) + startScale, (AudioSpectrum.amplitudeBuffer * scaleMultiplier) + startScale, (AudioSpectrum.amplitudeBuffer * scaleMultiplier) + startScale);
     }
 }

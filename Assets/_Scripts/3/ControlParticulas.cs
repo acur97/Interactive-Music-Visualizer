@@ -6,6 +6,7 @@ public class ControlParticulas : MonoBehaviour {
 
     public ParticleSystem ps;
     public float multiplicador;
+    public float speed = 1;
 
     private float velocidad;
 
@@ -15,5 +16,6 @@ public class ControlParticulas : MonoBehaviour {
 
         var main = ps.main;
         main.simulationSpeed = velocidad;
-	}
+        main.startSpeed = speed;
+    }
 }

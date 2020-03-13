@@ -20,13 +20,12 @@ public class AudioSpectrum : MonoBehaviour {
         source = GetComponent<AudioSource>();
     }
 
-    void Update ()
+    void FixedUpdate ()
     {
         GetSpectrum();
         MakeFrequencyBands();
         BandBuffer();
         GetAmplitude();
-        test = sample;
 	}
 
     void GetSpectrum()
