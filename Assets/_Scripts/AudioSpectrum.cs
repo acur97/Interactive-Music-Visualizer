@@ -10,7 +10,6 @@ public class AudioSpectrum : MonoBehaviour {
     public static float[] freqBand = new float[8];
     public static float[] bandBuffer = new float[8];
     private float[] bufferDecrease = new float[8];
-    public float[] test;
 
     public static float amplitude, amplitudeBuffer;
     public float amplitudeHighest;

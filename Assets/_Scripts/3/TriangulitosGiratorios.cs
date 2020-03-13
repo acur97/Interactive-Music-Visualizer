@@ -12,7 +12,6 @@ public class TriangulitosGiratorios : MonoBehaviour {
     private void FixedUpdate()
     {
         transform.Rotate((AudioSpectrum.amplitudeBuffer * rotMultiplier), (AudioSpectrum.amplitudeBuffer * rotMultiplier), (AudioSpectrum.amplitudeBuffer * rotMultiplier));
-
     }
 
     private void Update()

@@ -8,7 +8,7 @@ public class PostEffectsControl : MonoBehaviour {
 
     public VolumeProfile postV;
 
-    ChromaticAberration chromatic;
+    private ChromaticAberration chromatic;
 
     private float valor;
     private float mejorValor;

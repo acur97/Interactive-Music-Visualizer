@@ -32,7 +32,7 @@ RenderSettings:
   m_FlareFadeSpeed: 3
   m_HaloTexture: {fileID: 0}
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
-  m_DefaultReflectionMode: 0
+  m_DefaultReflectionMode: 1
   m_DefaultReflectionResolution: 64
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
@@ -217,8 +217,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_NoiseProfile: {fileID: 11400000, guid: 46965f9cbaf525742a6da4c2172a99cd, type: 2}
   m_PivotOffset: {x: 0, y: 0, z: 0}
-  m_AmplitudeGain: 0.000009657451
-  m_FrequencyGain: 0.000009657451
+  m_AmplitudeGain: 1.920182
+  m_FrequencyGain: 1.920182
   mNoiseOffsets: {x: 0, y: 0, z: 0}
 --- !u!114 &202241890
 MonoBehaviour:
@@ -274,9 +274,9 @@ AudioSource:
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
+  BypassEffects: 1
+  BypassListenerEffects: 1
+  BypassReverbZones: 1
   rolloffCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -358,7 +358,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da5cb98551e0733429c2bfe8ec7ed056, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  test: []
   amplitudeHighest: 1
 --- !u!4 &289789979
 Transform:
@@ -430,7 +429,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 111ff0afde6f3bd42be0cabdfbbb7831, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967294
+      value: 122
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 111ff0afde6f3bd42be0cabdfbbb7831, type: 3}
       propertyPath: m_LocalPosition.x
@@ -505,7 +504,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 111ff0afde6f3bd42be0cabdfbbb7831, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967294
+      value: 122
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 111ff0afde6f3bd42be0cabdfbbb7831, type: 3}
       propertyPath: m_LocalPosition.x
@@ -572,7 +571,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 111ff0afde6f3bd42be0cabdfbbb7831, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967294
+      value: 122
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 111ff0afde6f3bd42be0cabdfbbb7831, type: 3}
       propertyPath: m_LocalPosition.x
@@ -720,7 +719,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 111ff0afde6f3bd42be0cabdfbbb7831, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967294
+      value: 122
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 111ff0afde6f3bd42be0cabdfbbb7831, type: 3}
       propertyPath: m_LocalPosition.x
@@ -945,7 +944,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 111ff0afde6f3bd42be0cabdfbbb7831, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967294
+      value: 122
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 111ff0afde6f3bd42be0cabdfbbb7831, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1020,7 +1019,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 111ff0afde6f3bd42be0cabdfbbb7831, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967294
+      value: 122
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 111ff0afde6f3bd42be0cabdfbbb7831, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1195,7 +1194,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 92bf322dac68ef643a6cfb68ce7ddec2, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967294
+      value: 122
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 92bf322dac68ef643a6cfb68ce7ddec2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6024,7 +6023,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 111ff0afde6f3bd42be0cabdfbbb7831, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967294
+      value: 122
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 111ff0afde6f3bd42be0cabdfbbb7831, type: 3}
       propertyPath: m_LocalPosition.x
