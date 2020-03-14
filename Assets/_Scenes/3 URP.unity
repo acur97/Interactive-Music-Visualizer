@@ -217,8 +217,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_NoiseProfile: {fileID: 11400000, guid: 46965f9cbaf525742a6da4c2172a99cd, type: 2}
   m_PivotOffset: {x: 0, y: 0, z: 0}
-  m_AmplitudeGain: 1.920182
-  m_FrequencyGain: 1.920182
+  m_AmplitudeGain: 2.023167
+  m_FrequencyGain: 2.023167
   mNoiseOffsets: {x: 0, y: 0, z: 0}
 --- !u!114 &202241890
 MonoBehaviour:
@@ -260,7 +260,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: bf492e6dd14cc0b479e4490099e0079f, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 78ae6596b4f24be429ab0a517953f845, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
