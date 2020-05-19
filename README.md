@@ -1,6 +1,6 @@
 # Interactive-Music-Visualizer
 Experimentos de objetos reactivos a la musica
 
-video:
+Imagenes y videos del Proyecto:
 
-https://youtu.be/6-wdkI4MwqA
+https://www.behance.net/gallery/97361379/Visualizador-interactivo-de-musica
