@@ -217,8 +217,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_NoiseProfile: {fileID: 11400000, guid: 46965f9cbaf525742a6da4c2172a99cd, type: 2}
   m_PivotOffset: {x: 0, y: 0, z: 0}
-  m_AmplitudeGain: 2.023167
-  m_FrequencyGain: 2.023167
+  m_AmplitudeGain: 0.003115925
+  m_FrequencyGain: 0.003115925
   mNoiseOffsets: {x: 0, y: 0, z: 0}
 --- !u!114 &202241890
 MonoBehaviour:
@@ -260,7 +260,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 78ae6596b4f24be429ab0a517953f845, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 92f207bc610bdd54681fa54ab41b9d92, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1107,13 +1107,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f64c46e0d45db7043ab127f41e3128fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TiempoEntreTriangulos: 10
+  TiempoEntreTriangulos: 8
   delay: 1
   TrianguloPrefab: {fileID: 1517092942926848, guid: 037b9db40db9a6b4f94c872af4bf50ae,
     type: 3}
   Posicion: {fileID: 1565846837}
-  randomPosMin: -4
-  randomPosMax: 4
+  randomPosMin: -3
+  randomPosMax: 3
   Padre: {fileID: 1565846837}
 --- !u!4 &1465354172
 Transform:
@@ -1143,13 +1143,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f64c46e0d45db7043ab127f41e3128fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TiempoEntreTriangulos: 10
+  TiempoEntreTriangulos: 8
   delay: 0
   TrianguloPrefab: {fileID: 1517092942926848, guid: 037b9db40db9a6b4f94c872af4bf50ae,
     type: 3}
   Posicion: {fileID: 2040690739}
-  randomPosMin: -4
-  randomPosMax: 4
+  randomPosMin: -3
+  randomPosMax: 3
   Padre: {fileID: 2040690739}
 --- !u!1 &1565846836
 GameObject:
@@ -1175,7 +1175,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1565846836}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12, y: 0, z: 15}
+  m_LocalPosition: {x: 12, y: 0, z: 12}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1465354172}
@@ -6175,8 +6175,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 541031c37e5587f45b24e5508a6d3f92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  limite1: 0.7
-  limite2: 5
+  limite1: 0.68
+  limite2: 4.5
   limite3: 4.5
   cParticulas: {fileID: 1915795947}
 --- !u!114 &1915795950
@@ -6216,7 +6216,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2040690738}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -12, y: 0, z: 15}
+  m_LocalPosition: {x: -12, y: 0, z: 12}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1465354172}

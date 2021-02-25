@@ -44,8 +44,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32e00c009b07f6f4c863f99a2b5d6b0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotMultiplier: 9
-  scaleMultiplier: 0.045
+  rotMultiplier: 10
+  scaleMultiplier: 0.055
   startScale: 0.001
 --- !u!1 &1517092942926848
 GameObject:
@@ -144,8 +144,8 @@ MonoBehaviour:
   tiempoDeVidaMax: 38
   EscalaMaxima: 1
   saltosEscala: 0.01
-  velocidadRotacion: 0.001
-  velocidadTranslacion: 0.002
+  velocidadRotacion: 0.002
+  velocidadTranslacion: 0.0025
 --- !u!1 &1738976883390586
 GameObject:
   m_ObjectHideFlags: 0
